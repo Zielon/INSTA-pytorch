@@ -11,4 +11,4 @@ def parse_mask(mesh):
 
 class MeshUtils():
     def __init__(self):
-        self.lips_ids = parse_mask(trimesh.load('/home/wzielonka/CLionProjects/real-time-avatar/mesh_masks/lips.obj', process=False))
+        self.lips_ids = parse_mask(trimesh.load('insta/mesh_masks/lips.obj', process=False))
