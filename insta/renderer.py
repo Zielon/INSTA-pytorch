@@ -284,6 +284,7 @@ class NeRFRenderer(nn.Module):
             'depth': depth,
             'image': image,
             'weights_sum': weights_sum,
+            'range': (nears[0], fars[0])
         }
 
     def warp_position(self, triangles, xyzs, return_dist=False):
