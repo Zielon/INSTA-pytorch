@@ -16,7 +16,7 @@ Bolkart</a>, <a href="https://justusthies.github.io/" target="_blank">Justus Thi
 </h4>
 
 This repository is based on [torch-ngp](https://github.com/ashawkey/torch-ngp) and implements most of the C++ version.
-**Please note that the speed of training, rendering, and the quality
+**Please note that this is not 1:1 port of C++ version and some features are missing thus the speed of training, rendering, and the quality
 are not exactly the same like in the case of the [paper version](https://github.com/Zielon/INSTA) of INSTA. Therefore, for any comparisons please use the C++ version.**
 
 ### Installation
